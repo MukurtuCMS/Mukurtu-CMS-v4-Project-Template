@@ -1,0 +1,10 @@
+--- src/Entity/OgMembership.php.orig	2020-11-04 21:38:11.892884800 +0000
++++ src/Entity/OgMembership.php	2020-11-04 21:31:00.559574900 +0000
+@@ -17,6 +17,7 @@
+ use Drupal\og\OgMembershipInterface;
+ use Drupal\og\OgRoleInterface;
+ use Drupal\user\EntityOwnerInterface;
++use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+ /**
+  * The membership entity that connects a group and a user.
