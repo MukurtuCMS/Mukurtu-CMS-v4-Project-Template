@@ -24,3 +24,4 @@
 * You may be prompted to add your GitHub token. Follow the on-screen instructions for public repositories.
 * Launch your new ddev project: `ddev launch`
 * You should now see the standard Drupal 9 installer, configured to use the Mukurtu installation profile.
+* Default admin credentials are admin/admin.
