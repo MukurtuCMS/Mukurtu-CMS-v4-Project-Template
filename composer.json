@@ -43,17 +43,8 @@
             }
         },
         {
-            "type": "package",
-            "package": {
-                "name": "mukurtu/mukurtu-cms",
-                "version": "0.0.1",
-                "type": "drupal-profile",
-                "source": {
-                    "url": "git@github.com:MukurtuCMS/Mukurtu-CMS.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
+            "type": "vcs",
+	    "url": "https://github.com/MukurtuCMS/Mukurtu-CMS.git"
         }
     ],
     "require": {
@@ -104,7 +95,7 @@
         "drupal/views_bulk_operations": "*",
         "drush/drush": "^10",
         "mukurtu/masonry": "*",
-        "mukurtu/mukurtu-cms": "*",
+        "mukurtu/mukurtu-cms": "dev-main",
         "sibyx/phpgpx": "@RC"
     },
     "require-dev": {
