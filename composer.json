@@ -17,19 +17,6 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         },
-	{
-	    "type": "package",
-	    "package": {
-                "name": "mukurtu/og",
-		"version": "1.0.0",
-		"type": "drupal-module",
-		"source": {
-                  "url": "https://github.com/zerolab/og.git",
-		  "type": "git",
-		  "reference": "196-redux"
-		}
-	    }
-	},
         {
             "type": "package",
             "package": {
@@ -82,7 +69,7 @@
         "drupal/migrate_source_csv": "^3.5",
         "drupal/migrate_tools": "^6.0",
         "drupal/google_analytics": "*",
-        "mukurtu/og": "*",
+        "drupal/og": "^1.x-dev",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
         "drupal/redirect": "*",
@@ -158,9 +145,6 @@
             ]
         },
         "patches": {
-            "drupal/og": {
-                "Add OG Roles UI": "https://github.com/Gizra/og/pull/243.patch"
-            },
             "drupal/message_ui": {
                 "Fix installation": "https://git.drupalcode.org/project/message_ui/-/merge_requests/2.diff"
             }
