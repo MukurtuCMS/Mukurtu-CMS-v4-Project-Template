@@ -92,6 +92,7 @@
         "drupal/token": "*",
         "drupal/views_bulk_operations": "*",
         "drush/drush": "^10",
+        "mukurtu/colorbox": "*",
         "mukurtu/masonry": "*",
         "mukurtu/mukurtu-cms": "dev-main",
         "sibyx/phpgpx": "@RC"
