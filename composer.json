@@ -180,12 +180,6 @@
             ]
         },
         "patches": {
-            "drupal/og": {
-                "Add OG Roles UI": "https://github.com/Gizra/og/pull/243.patch"
-            },
-            "drupal/message_ui": {
-                "Fix installation": "https://git.drupalcode.org/project/message_ui/-/merge_requests/2.diff"
-            },
             "drupal/views_combine": {
                 "Fix illegal choice on exposed sort error": "https://www.drupal.org/files/issues/2022-01-17/3259018-6-illegal-sort-choice.patch"
             }
