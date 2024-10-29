@@ -104,7 +104,6 @@
         "drupal/migrate_tools": "^6.0",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
-        "drupal/pdf_reader": "^1.1",
         "drupal/redirect": "*",
         "drupal/restui": "*",
         "drupal/search_api": "*",
