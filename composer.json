@@ -67,7 +67,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/ckeditor_config": "^3.4",
         "drupal/ckeditor_iframe": "^2.2",
-	"drupal/colorbox": "2.0.2",
+        "drupal/colorbox": "2.0.2",
         "drupal/config_pages": "^2.15",
         "drupal/console": "~1.0",
         "drupal/content_browser": "*",
@@ -104,6 +104,7 @@
         "drupal/migrate_tools": "^6.0",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
+        "drupal/pdf_reader": "^1.1",
         "drupal/redirect": "*",
         "drupal/restui": "*",
         "drupal/search_api": "*",
@@ -183,6 +184,9 @@
         "patches": {
             "drupal/views_combine": {
                 "Fix illegal choice on exposed sort error": "https://www.drupal.org/files/issues/2022-01-17/3259018-6-illegal-sort-choice.patch"
+            },
+            "drupal/paragraphs": {
+                "Ensure empty paragraphs register as empty": "web/profiles/contrib/mukurtu-cms/patches/paragraphs-118.patch"
             }
         },
         "drupal-core-project-message": {
