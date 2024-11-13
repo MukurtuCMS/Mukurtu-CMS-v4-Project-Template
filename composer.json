@@ -103,6 +103,7 @@
         "drupal/migrate_plus": "^6.0",
         "drupal/migrate_source_csv": "^3.5",
         "drupal/migrate_tools": "^6.0",
+        "drupal/og": "dev-1.x",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
         "drupal/redirect": "*",
@@ -118,7 +119,6 @@
         "drush/drush": "^10",
         "mukurtu/masonry": "*",
         "mukurtu/mukurtu-cms": "dev-main",
-        "mukurtu/og": "*",
         "sibyx/phpgpx": "@RC"
     },
     "require-dev": {
